@@ -1,0 +1,6 @@
+cost_price=int(input("Enter number"))
+sell_price=int(input("Enter number"))
+profit=sell_price-cost_price
+print(profit)
+selling_price=((100+0.05)*cost_price)/100
+print(selling_price)
