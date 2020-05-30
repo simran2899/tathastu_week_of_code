@@ -1,0 +1,15 @@
+a=int(input("Enter runs of first player"))
+b=int(input("Enter runs of second player"))
+c=int(input("Enter runs of third player"))
+s_rate1=a*100/60
+s_rate2=b*100/60
+s_rate3=c*100/60
+print("Strike rate of a:",s_rate1)
+print("Strike rate of b:",s_rate2)
+print("Strike rate of c:",s_rate3)
+print("Runs scored by a if he play 60 more balls:",a*2)
+print("Runs scored by b if he play 60 more balls:",b*2)
+print("Runs scored by c if he play 60 more balls:",c*2)
+print("Maximum number of sixes by a:",a//6)
+print("Maximum number of sixes by b:",b//6)
+print("Maximum number of sixes by c:",c//6)
